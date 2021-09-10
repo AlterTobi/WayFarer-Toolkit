@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "WayFarer-",
+  "name": "WayFarer Toolkit",
   "description": "Opens up Niantic's Wayfarer to a world of modding!",
-  "version": "beta 1",
+  "version": "0.1",
 
   "icons": {
     "128": "icons/icon128.png",

@@ -4,8 +4,8 @@ function init(){
             // Inject extension URL into local var space
             let extURL = chrome.runtime.getURL("");
             let script = "window.extURL = '" + extURL + "';" +
-                "window.wfpp = {};" +
-                "window.wfpp.options = {};";
+                "window.wft = {};" +
+                "window.wft.options = {};";
             let inlineScriptElem = document.createElement("script");
             inlineScriptElem.innerText = script;
             document.getElementsByTagName('body')[0].appendChild(inlineScriptElem);

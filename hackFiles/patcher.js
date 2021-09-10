@@ -6,7 +6,7 @@ function applyJSONTextPatch(sourceText, jsonPatch){
         let patchRule = jsonPatch[i];
         sourceText = insertIntoString(sourceText, patchRule.pos, patchRule.content);
     }
-    if (window.wfpp.options.DEBUG !== undefined){
+    if (window.wft.options.DEBUG !== undefined){
         console.log(jsonPatch);
         // Log patched sourceText
         console.log(sourceText);

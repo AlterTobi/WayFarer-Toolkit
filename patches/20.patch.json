@@ -1,18 +1,18 @@
 [
   {
 	"pos": 44399,
-	"content": ";window.wfpp.nominationsApp.listController = this;"
+	"content": ";window.wft.nominationsApp.listController = this;"
   },
   {
 	"pos": 35772,
-	"content": ";setTimeout(() => {var modEvent = new Event('WFMNominationSelected'); window.dispatchEvent(modEvent); },1);"
+	"content": ";setTimeout(() => {var modEvent = new Event('WFTNominationSelected'); window.dispatchEvent(modEvent); },1);"
   },
   {
 	"pos": 35583,
-	"content": ";window.wfpp.nominationsApp.selectedNomination = this;"
+	"content": ";window.wft.nominationsApp.selectedNomination = this;"
   },
   {
 	"pos": 0,
-	"content": "window.wfpp.nominationsApp = {};"
+	"content": "window.wft.nominationsApp = {};"
   }
 ]
