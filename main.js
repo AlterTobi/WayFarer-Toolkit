@@ -20,7 +20,7 @@ function init(){
             bootstrapScriptElem.src = chrome.runtime.getURL("hackFiles/bootstrap.js");
             document.getElementsByTagName('head')[0].appendChild(bootstrapScriptElem);
 
-            console.log("wf- inject attempie done wowzers");
+            console.log("[WayFarer Toolkit] Base setup complete.");
         }
     )
 }

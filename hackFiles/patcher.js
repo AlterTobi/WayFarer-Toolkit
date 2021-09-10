@@ -26,7 +26,7 @@ async function loadPatchedRemoteFile(remoteSrc, patchFile){
             let patchedScriptElem = document.createElement("script");
             patchedScriptElem.innerText = patchedSrc;
             document.getElementsByTagName("body")[0].appendChild(patchedScriptElem);
-            console.log("[WayFarer-] Injected patched version of " + remoteSrc);
+            console.log("[WayFarer Toolkit] Injected patched version of " + remoteSrc);
         }
     );
 }
