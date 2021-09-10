@@ -1,0 +1,18 @@
+[
+  {
+	"pos": 44399,
+	"content": ";window.wfpp.nominationsApp.listController = this;"
+  },
+  {
+	"pos": 35772,
+	"content": ";setTimeout(() => {var modEvent = new Event('WFMNominationSelected'); window.dispatchEvent(modEvent); },1);"
+  },
+  {
+	"pos": 35583,
+	"content": ";window.wfpp.nominationsApp.selectedNomination = this;"
+  },
+  {
+	"pos": 0,
+	"content": "window.wfpp.nominationsApp = {};"
+  }
+]

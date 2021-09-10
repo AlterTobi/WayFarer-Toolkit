@@ -1,0 +1,6 @@
+[
+  {
+	"pos": 850,
+	"content": ";if (e === 17){ loadPatchedRemoteFile(\"/js/angular/17.0f675f683b6728205c32.js\", \"17.patch.json\");return;}else if (e === 20) {loadPatchedRemoteFile(\"/js/angular/20.3181b3093c623f231ac5.js\", \"20.patch.json\");return;}console.log(\"No patched files for script of ID \" + e);"
+  }
+]

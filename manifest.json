@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "WayFarer-",
+  "description": "Opens up Niantic's Wayfarer to a world of modding!",
+  "version": "beta 1",
+
+  "icons": {
+    "128": "icons/icon128.png",
+    "48": "icons/icon48.png",
+    "16": "icons/icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://wayfarer.nianticlabs.com/*"],
+      "js": ["main.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": [
+	"webRequest",
+	"webRequestBlocking",
+	"*://wayfarer.nianticlabs.com/*",
+	"activeTab"
+  ],
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "web_accessible_resources": [
+    "pageJs/libs/*.js",
+    "pageJs/*.js",
+	"hackFiles/*",
+    "patches/*"
+  ]
+}
