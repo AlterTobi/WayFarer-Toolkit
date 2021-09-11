@@ -1,0 +1,14 @@
+[
+  {
+	"pos": 3068,
+	"content": ";}"
+  },
+  {
+	"pos": 3054,
+	"content": "{if (t.profileStats !== null){window.wft.profileApp.profileStats = t.profileStats;let modEvent = new Event(\"WFTProfileLoad\");window.dispatchEvent(modEvent);}return "
+  },
+  {
+	"pos": 0,
+	"content": "window.wft.profileApp = {};"
+  }
+]

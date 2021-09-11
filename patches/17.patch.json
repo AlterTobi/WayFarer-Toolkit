@@ -13,7 +13,7 @@
   },
   {
 	"pos": 62147,
-	"content": ";window.wft.reviewApp.pageData = this.reviewData; window.wft.reviewApp.reviewController = this;let modEvent = let Event(\"WFTReviewPageLoad\");window.dispatchEvent(modEvent);"
+	"content": ";window.wft.reviewApp.pageData = this.reviewData; window.wft.reviewApp.reviewController = this;let modEvent = Event(\"WFTReviewPageLoad\");window.dispatchEvent(modEvent);"
   },
   {
 	"pos": 0,
