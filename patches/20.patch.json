@@ -5,11 +5,7 @@
   },
   {
 	"pos": 35772,
-	"content": ";setTimeout(() => {let modEvent = new Event('WFTNominationSelected'); window.dispatchEvent(modEvent); },1);"
-  },
-  {
-	"pos": 44400,
-	"content": ";window.wft.nominationsApp.selectedNomination = this;"
+	"content": ";window.wft.nominationsApp.selectedNomination = this;setTimeout(() => {let modEvent = new Event('WFTNominationSelected'); window.dispatchEvent(modEvent); },1);"
   },
   {
 	"pos": 15908,
