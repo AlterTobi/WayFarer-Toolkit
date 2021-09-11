@@ -5,11 +5,19 @@
   },
   {
 	"pos": 35772,
-	"content": ";setTimeout(() => {var modEvent = new Event('WFTNominationSelected'); window.dispatchEvent(modEvent); },1);"
+	"content": ";setTimeout(() => {let modEvent = new Event('WFTNominationSelected'); window.dispatchEvent(modEvent); },1);"
   },
   {
-	"pos": 35583,
+	"pos": 44400,
 	"content": ";window.wft.nominationsApp.selectedNomination = this;"
+  },
+  {
+	"pos": 15908,
+	"content": ";}"
+  },
+  {
+	"pos": 15879,
+	"content": "{window.wft.nominationsApp.listData=t;let modEvent = new Event('WFTNominationListLoad');window.dispatchEvent(modEvent);return "
   },
   {
 	"pos": 0,
