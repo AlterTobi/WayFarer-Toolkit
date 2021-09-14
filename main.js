@@ -20,11 +20,6 @@ function init(){
             bootstrapScriptElem.src = chrome.runtime.getURL("core/bootstrap.js");
             document.getElementsByTagName('head')[0].appendChild(bootstrapScriptElem);
 
-            // Statically add Nia's GMaps API, useful for addons that want to use GMaps
-            let mapsScriptElem = document.createElement('script');
-            mapsScriptElem.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBMntzWjGst_uwXhdDvFbSvos0ZYqwI4Yw&libraries=places,drawing,geometry";
-            document.getElementsByTagName('head')[0].appendChild(mapsScriptElem);
-
             console.log("[WayFarer Toolkit] Base setup complete.");
         }
     )

@@ -1,5 +1,9 @@
 [
   {
+	"pos": 756934,
+	"content": "; load();"
+  },
+  {
 	"pos": 235774,
 	"content": "; window.dispatchEvent(new Event(\"WFTConstantsLoad\"));"
   },
