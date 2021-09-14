@@ -1,5 +1,9 @@
 [
   {
+	"pos": 235774,
+	"content": "; window.dispatchEvent(new Event(\"WFTConstantsLoad\"));"
+  },
+  {
 	"pos": 232314,
 	"content": "window.wft.wfConstants ="
   }
