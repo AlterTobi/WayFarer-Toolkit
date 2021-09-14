@@ -12,12 +12,12 @@ function init(){
 
             // Add file patcher
             let patcherScriptElem = document.createElement('script');
-            patcherScriptElem.src = chrome.runtime.getURL("hackFiles/patcher.js");
+            patcherScriptElem.src = chrome.runtime.getURL("core/patcher.js");
             document.getElementsByTagName('head')[0].appendChild(patcherScriptElem);
 
             // Add wayfarer bootstrap
             let bootstrapScriptElem = document.createElement('script');
-            bootstrapScriptElem.src = chrome.runtime.getURL("hackFiles/bootstrap.js");
+            bootstrapScriptElem.src = chrome.runtime.getURL("core/bootstrap.js");
             document.getElementsByTagName('head')[0].appendChild(bootstrapScriptElem);
 
             console.log("[WayFarer Toolkit] Base setup complete.");
