@@ -4,6 +4,10 @@
 	"content":  ";window.wft.reviewApp = {};window.wft.reviewApp.submitController = this;"
   },
   {
+	"pos": 140849,
+	"content": "ngOnInit(){window.wft.reviewApp.reviewController = this;window.wft.reviewApp.pageData = this.reviewData;window.dispatchEvent(new Event(\"WFTReviewPageLoad\"));window.dispatchEvent(new Event(\"WFTPhotoReviewPageLoad\"));}"
+  },
+  {
 	"pos": 112397,
 	"content": ";window.wft.reviewApp.reviewController = this;window.wft.reviewApp.pageData = this.reviewData;window.dispatchEvent(new Event(\"WFTReviewPageLoad\"));window.dispatchEvent(new Event(\"WFTEditReviewPageLoad\"));"
   },
