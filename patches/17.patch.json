@@ -4,6 +4,10 @@
 	"content":  ";window.wft.reviewApp = {};window.wft.reviewApp.submitController = this;"
   },
   {
+	"pos": 112397,
+	"content": ";window.wft.reviewApp.reviewController = this;window.wft.reviewApp.pageData = this.reviewData;window.dispatchEvent(new Event(\"WFTReviewPageLoad\"));window.dispatchEvent(new Event(\"WFTEditReviewPageLoad\"));"
+  },
+  {
 	"pos": 100585,
 	"content":  ";window.wft.reviewApp.rejectController = this;"
   },
@@ -13,10 +17,11 @@
   },
   {
 	"pos": 62147,
-	"content": ";window.wft.reviewApp.pageData = this.reviewData; window.wft.reviewApp.reviewController = this;let modEvent = new Event(\"WFTReviewPageLoad\");window.dispatchEvent(modEvent);"
+	"content": ";window.wft.reviewApp.pageData = this.reviewData; window.wft.reviewApp.reviewController = this;window.dispatchEvent(new Event(\"WFTReviewPageLoad\"));window.dispatchEvent(new Event(\"WFTNewReviewPageLoad\"));"
   },
   {
 	"pos": 0,
 	"content": "window.wft.reviewApp = {};"
   }
+
 ]
