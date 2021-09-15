@@ -5,7 +5,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         // First narrow down to only looking at script requests to wayfarer.nianticlabs.com
         if (info.type === "script"){
             // Check if URL contains keywords of scripts we need to prevent from loading
-            let blockingRegExp = new RegExp("runtime|main");
+            let blockingRegExp = new RegExp("runtime|main|WFToolkitIntercept");
             if (blockingRegExp.test(info.url)) {
                 // Block the request!
                 console.log("BLOCKED!", info.url);

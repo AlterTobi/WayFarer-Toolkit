@@ -1,6 +1,10 @@
 [
   {
+	"pos": 1448,
+	"content": "if(r.target.src === \"https://wayfarer.nianticlabs.com/WFToolkitIntercept\"){return;}"
+  },
+  {
 	"pos": 850,
-	"content": ";if (e === 17){ loadPatchedRemoteFile(\"/js/angular/17.0f675f683b6728205c32.js\", \"17.patch.json\");return;}else if (e === 20) {loadPatchedRemoteFile(\"/js/angular/20.3181b3093c623f231ac5.js\", \"20.patch.json\");return;}else if (e === 16) {loadPatchedRemoteFile(\"/js/angular/16.3726277ec0b0656f59a2.js\", \"16.patch.json\");return;}console.log(\"[WayFarer Toolkit] No patched files for script of ID \" + e);"
+	"content": ";if (e === 17){ loadPatchedRemoteFile(\"/js/angular/17.0f675f683b6728205c32.js\", \"17.patch.json\");return \"WFToolkitIntercept\";}else if (e === 20) {loadPatchedRemoteFile(\"/js/angular/20.3181b3093c623f231ac5.js\", \"20.patch.json\");return \"WFToolkitIntercept\";}else if (e === 16) {loadPatchedRemoteFile(\"/js/angular/16.3726277ec0b0656f59a2.js\", \"16.patch.json\");return \"WFToolkitIntercept\";}console.log(\"[WayFarer Toolkit] No patched files for script of ID \" + e);"
   }
 ]
