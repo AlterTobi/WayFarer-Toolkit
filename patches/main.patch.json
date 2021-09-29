@@ -1,10 +1,10 @@
 [
   {
-	"pos": 235774,
+	"pos": 235989,
 	"content": "; window.dispatchEvent(new Event(\"WFTConstantsLoad\"));"
   },
   {
-	"pos": 232314,
+	"pos": 232529,
 	"content": "window.wft.wfConstants ="
   }
 ]
